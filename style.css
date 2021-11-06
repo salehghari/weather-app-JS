@@ -1,0 +1,27 @@
+.weather-wrapper {
+    height: 13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t1 {
+    background-color: rgb(75, 234, 255);;
+}
+.t2 {
+    background-color: rgb(92, 255, 179);
+}
+.t3 {
+    background-color: rgb(92, 255, 127);
+}
+.t4 {
+    background-color: rgb(193, 255, 92);
+}
+.t5 {
+    background-color: rgb(255, 239, 92);
+}
+@media screen and (max-width: 1000px) {
+    .col-md-7,
+    .mx-auto {
+        max-width: 94%;
+    }
+}
